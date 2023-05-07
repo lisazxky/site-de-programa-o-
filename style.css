@@ -1,0 +1,166 @@
+body {
+    background-color: rgb(11, 201, 235);
+	font-family: OCR A Std, monospace;
+	margin: 0;
+	padding: 0;
+    
+}
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+	background-color: #e4ce0c;
+	color: #000000;
+	padding: 52px 0;
+    margin-top: 10px;
+    background-image: linear-gradient(to right, #ffa600, #faf170);
+
+}
+
+.logo {
+	float: center;
+    text-align: left;
+}
+
+nav {
+	float: right;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+nav a {
+	color: #000000;
+	font-size: 16px;
+	text-decoration: none;
+    font-style: normal;
+    font-family: OCR A Std, monospace;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+main {
+	padding: 40px 0;
+}
+
+.texto {
+	float: left;
+	width: 60%;
+	margin-right: 40px;
+}
+
+.texto h2 {
+	margin-top: 0;
+}
+
+.texto p {
+	line-height: 1.5;
+}
+
+.texto img {
+	max-width: 100%;
+	height: auto;
+	margin-top: 20px;
+}
+
+.galeria {
+	float: left;
+	width: 35%;
+}
+
+.galeria h2 {
+	margin-top: 0;
+}
+
+.foto {
+	margin-bottom: 20px;
+    width: 70%;
+    margin-right: 200px;
+}
+
+.foto img {
+	max-width: 100%;
+	height: auto;
+}
+
+.foto p {
+	margin-top: 5px;
+}
+
+footer {
+	background-color: #e4e4e4;
+	padding: 20px 0;
+	text-align: center;
+    background-image: linear-gradient(to bottom, #f8f2f2, #57718f);
+
+}
+
+.logo-pequena {
+	background-color: #222;
+	color: #fff;
+	display: inline-block;
+	padding: 5px 100px;
+}
+
+.logo-pequena h1 {
+	margin: 0;
+	font-size: 20px;
+}
+
+.alinhar {
+    align-items: center;
+    text-align: center;
+}
+.lado1{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+
+.lado2{
+    display: flex;
+}
+
+header img{
+    height: 300px;
+    float: left;
+    margin-left: 30px;
+
+}
+
+.moldura1{
+    border: 5px solid #ebac00;
+   
+}
+
+.moldura2{
+    border: 5px solid #ebac00;
+}
+
+.moldura3{
+    border: 5px solid #ebac00;
+}
+
+.moldura4{
+    border: 5px solid #ebac00;
+}
+
+.moldura5{
+    border: 5px solid #ebac00;
+}
